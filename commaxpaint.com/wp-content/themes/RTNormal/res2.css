@@ -1,0 +1,45 @@
+/*****************************************************/
+/* Responsive for web
+/*****************************************************/
+@media screen and  (max-width: 900px) {
+		/*tất  ngang*/
+	.site-container{ width: 99%;}
+	.wrap, .content-sidebar-wrap, .content {width: 100% !important;}
+	.nav-primary, .metaslider,.search-form, .woocommerce-product-search {display: none !important;}
+	.product-list {text-align: center;}
+	.sidebar {width: 100% !important;}
+	.sidebar .img-qc a {display: block;line-height: 0;text-align: center;margin: 10px 0;}
+	.footer-widgets .widget-area {
+		width: 100% !important; 
+		margin: 0 0 10px !important;
+		padding: 0 3% !important;
+		float: left !important;
+	}
+	#related-post ul {padding: 0 0 0 10px;}
+	.support-online-widget #supporter-info {padding-top: 0px; background: none; }
+}
+@media screen and  (max-width: 600px) {
+/*ifone 4+5 dọc*/
+	.news-post {padding-bottom: 25px;}
+	.news-post .thumb-new {display: block;line-height: 0;float: initial;margin: 0;}
+	.news-post img {width: 100%;max-width: initial;margin: 0 0 15px;}
+}
+@media screen and  (max-width: 500px) {
+/*ifone 4+5 dọc*/
+	.woocommerce .woocommerce-ordering select, .woocommerce-page .woocommerce-ordering select,
+	.woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count{
+		display: none;
+	}
+	.header-logo {
+		display: none;
+	}
+	.header-logo-mobile {
+		display: block;
+	}
+	.header-logo-mobile a.banner-mobile {
+		display: block;
+		line-height: 0;
+		text-align: center;
+	}
+}
+
