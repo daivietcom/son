@@ -1,0 +1,265 @@
+/**** support online ****/
+.supporter p {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+/* giao dien 1 */
+.gd_support_1 {
+	padding-top : 92px;
+	background: url(images/bg-support.png) top center no-repeat;
+	margin-top: 5px;
+}
+.gd_support_1 .supporter {
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 0px;
+}
+.gd_support_1 .supporter i {
+	margin-right: 5px;
+}
+.gd_support_1 .online{
+	text-align: center;
+	margin:5px 0;
+}
+.gd_support_1 .yahoo a, .gd_support_1 .skype a{
+	line-height: 0;
+	display: block;
+}
+.gd_support_1 .yahoo, .gd_support_1 .skype{
+	display: inline-block;
+	margin:0px 5px;
+}
+.gd_support_1 .phone {
+    color: #F00;
+    font-weight: bold;
+    display: block;
+}
+/* giao dien 2 */
+.gd_support_2{
+	padding-top: 157px;
+    background: url(images/bg-support.png) center 9px no-repeat;
+}
+.gd_support_2 .supporter {
+    font-weight: bold;
+    padding:3px 5px;
+}
+.gd_support_2 .supporter i {
+	width: 14px;
+	margin-right: 3px;
+	color: #027b84;
+}
+.gd_support_2 .online{
+	text-align: center;
+	margin:5px 0;
+	display: none;
+}
+.gd_support_2 .name {
+	text-align: left;
+	display: block;
+	color: #333333;
+	font-weight: 600;
+	line-height: 26px;
+    padding: 0 10px;
+}
+.gd_support_2 .mail {
+	color: #333333;
+    font-weight: 600;
+    padding: 7px 10px;
+}
+.gd_support_2 .phone {
+    color: #e60000;
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 10px 7px;
+}
+/* giao dien 3 */
+.gd_support_3 {
+    box-shadow: 2px -2px 3px #a1a1a1;
+    border: none !important;
+}
+.gd_support_3 .supporter {
+    text-align: left;
+    font-weight: bold;
+    padding: 7px 13px 50px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.gd_support_3 .supporter .img-sp {
+    float: right;
+    height: 75px;
+    width: 75px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+}
+.gd_support_3 i {
+	display: none;
+}
+.gd_support_3 .info {
+    margin-top: 15px;
+}
+.gd_support_3 .name {
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 14px;
+}
+.gd_support_3 .phone {
+    color: #222;
+    display: block;
+    font-weight: normal;
+    line-height: 3;
+}
+.gd_support_3 .mail {
+	color: #222;
+	font-weight: normal;
+	line-height: 1;
+}
+.gd_support_3 .online {
+    text-align: left;
+    margin: 0;
+    position: relative;
+}
+.gd_support_3 .name3 {
+    font-weight: normal;
+    font-size: 14px;
+}
+.gd_support_3 .yahoo, .gd_support_3 .skype {
+    display: inline-block;
+    margin: 0px 5px;
+    position: absolute;
+    bottom: -60px;
+}
+.gd_support_3 .skype {
+	margin-left: 53px;
+}
+.gd_support_3 .yahoo a, .gd_support_3 .skype a {
+    line-height: 0;
+    display: block;
+    background: url(images/yahoo.png) no-repeat;
+    height: 32px;
+    width: 34px;
+}
+.gd_support_3 .skype a {
+	height: 34px;
+	background: url(images/sky.png) no-repeat;
+}
+.gd_support_3 .yahoo img, .gd_support_3 .skype img {
+   display: none;
+}
+/* giao dien 4 */
+.gd_support_4 .supporter {
+    font-weight: bold;
+    padding:6px 0px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+}
+.gd_support_4 .supporter i {
+	display: none;
+}
+.gd_support_4 .supporter:last-child {
+	border-bottom: none;
+}
+.gd_support_4 .online{
+	width: 36%;
+	float: left;
+	padding-top: 10px;
+}
+.gd_support_4 .info {
+	width: 62%;
+	float: right;
+}
+.gd_support_4 .yahoo a, .gd_support_4 .skype a{
+	line-height: 0;
+	display: block;
+	background: url(images/yahoo-4.png) no-repeat;
+	width: 33px;
+	height: 33px;
+}
+.gd_support_4 .skype a {
+	background: url(images/skype-4.png) no-repeat;
+}
+.gd_support_4 .yahoo a img, .gd_support_4 .skype a img {
+	display: none;
+}
+.gd_support_4 .yahoo, .gd_support_4 .skype{
+    display: inline-block;
+    margin: 0px 0 0 6px;
+    float: left;
+}
+.gd_support_4 .phone {
+	font-size: 12px;
+    color: #db0001;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 20px;
+}
+.gd_support_4 .name {
+	display: block;
+	color: #333333;
+	font-weight: bold;
+	font-size: 14px;
+}
+.gd_support_4 .name2 {
+	position: absolute;
+    width: 100%;
+    text-indent: 92px;
+    top: 25px;
+    color: #222;
+}
+/* giao dien 5 */
+.gd_support_5  .supporter {
+    font-weight: bold;
+    padding:6px 0px;
+    text-align: center;
+}
+.gd_support_5 .supporter .phone i {
+	display: block;
+    background: url(images/hotline-5.png) center no-repeat;
+    width: 100%;
+    height: 90px;
+    text-indent: -9999px;
+    margin-bottom: 10px;
+}
+.gd_support_5 .phone {
+	color: #006ea6;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+}
+.gd_support_5 .mail {
+	line-height: 30px;
+	display: block;
+	color: #016fac;
+}
+.gd_support_5 .mail i {
+	display: none;
+}
+/* giao dien 6 */
+.gd_support_6 {
+    padding-top: 195px;
+    background: url(images/bg-support-6.png) top center no-repeat,#c10000;
+    margin-top: 3px;
+}
+.gd_support_6 .supporter {
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 0px;
+}
+.gd_support_6 .phone {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    font-size: 22px;
+}
+.gd_support_6 .mail {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #fff;
+}
+.gd_support_6 .mail i, .gd_support_6 .phone i {
+	display: none;
+}

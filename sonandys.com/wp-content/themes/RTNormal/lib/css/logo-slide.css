@@ -1,0 +1,52 @@
+
+.logo-footer h4 {
+    text-align: center;
+    color: #ed1c24;
+    font-size: 30px;
+    padding: 30px 0 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.preview-slider {
+    position: relative;
+}
+.prev, .next {
+    background-position: 0 0;
+    width: 33px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 64px;
+    text-indent: -9999px;
+    z-index: 9998;
+}
+.prev {
+    background: url(images/left.png) no-repeat;
+    left: 0;
+}
+.next {
+    background: url(images/right.png) no-repeat;
+    right: 25px;
+}
+
+.slide-ads {
+    height: 130px !important;
+    margin: auto;
+    padding: 15px 0;
+}
+.slide-ads ul {
+    clear: both;
+    overflow: hidden;
+}
+.slide-ads ul li {
+    width: 170px;
+    height: 120px;
+    float: left;
+    position: relative;
+    margin: 0 38px 9px 0;
+    text-align: center;
+}
+.slide-ads ul li img {
+    width: 170px;
+    height: 120px;
+}
