@@ -1,0 +1,213 @@
+/* style widgets */
+.sidebar .widget {
+	clear: both;
+}
+/* widget post category */
+.rt-post-category .news-widget .featured-post {
+    margin: 7px 7px;
+    padding-bottom: 7px;
+    overflow: hidden;
+    border-bottom: 1px solid #c9c9c9;
+}
+.rt-post-category .news-widget .featured-post:last-child {
+    border-bottom: none;
+}
+
+.rt-post-category .news-widget .featured-post:first-child .normal {
+    display: block;
+}
+.rt-post-category .news-widget .featured-post .normal {
+    display: none;
+}
+.rt-post-category .news-widget .featured-post:first-child .news-title {
+    color: #6e3726;
+    padding: 0;
+}
+.rt-post-category .news-widget .featured-post:first-child .news-title:before {
+    display: none;
+}
+.rt-post-category .news-widget.no-slide .featured-post {
+    clear: both;
+}
+.rt-post-category .news-widget .featured-post .news-title {
+	font-weight: 600;
+    position: relative;
+    font-family: 'Open sans';
+    display: block;
+    padding-left: 10px;
+}
+.rt-post-category .news-widget .featured-post .news-title:hover {
+    color: #ef0000;
+}
+.rt-post-category .news-widget .featured-post .news-title:before {
+    content: '\f054';
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-size: 10px;
+    color: #6e3726;
+}
+.rt-post-category .news-widget .featured-post .align-left {
+	width: 85px;
+    float: left;
+    margin-right: 10px;
+}
+.rt-post-category .news-widget .featured-post .align-right {
+	width: 85px;
+    float: right;
+    margin-right: 10px;
+}
+/* widget partner */
+.img-partner .image-partner .slide .image-item {
+    padding: 10px;
+}
+.img-partner .image-partner .slide .image-item .title {
+    font-weight: bold;
+}
+.img-partner .image-partner .slide .image-item .content-partner {
+    color: #ccc;
+    padding: 10px 0;
+}
+
+/* support */
+/*********gd_support_1***********/
+#supporter-info {
+    background-image: -moz-linear-gradient( #6c321b, #54160d);
+    background-image: -webkit-linear-gradient( #6c321b, #54160d);
+    background-image: -ms-linear-gradient( #6c321b, #54160d);
+}
+.support-img{
+    display: block;
+    width: 100%;
+}
+.supporter{
+    padding :5px 0;
+}
+.supporter{
+    border-bottom: 1px solid #4b170e;
+}
+.supporter:last-child{
+    border-bottom: 0;
+}
+.supporter .info{
+    padding: 0 20px 0px;
+}
+.supporter span{
+    display: block;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+}
+.name-support{
+    text-transform: capitalize;
+}
+.supporter .phone-support a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.supporter span i{
+    margin-right: 5px;
+    color: #bb1d1d;
+}
+.supporter .mail-support{
+    line-height: 35px;
+    padding: 0px;
+}
+.supporter .mail-support i{
+    color: #fff;
+}
+/*******.gd_support_2*********/
+.gd_support_2 .supporter{
+    border: 0;
+}
+.gd_support_2 .supporter .support-rt{
+    border-bottom: 1px solid #4b170e;
+    padding: 5px 0;
+}
+.gd_support_2 .supporter .phone-support_2{
+    font-size: 25px;
+    font-weight: 500;
+    background: url(images/phone-support_2.png)left center no-repeat;
+    padding-left: 30px;
+}
+.gd_support_2 .supporter .phone-support_2 i{
+    display: none;
+}
+
+/***********.phone_support_3*************/
+.phone_support_3{
+    font-size: 20px;
+    color: #e60000;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.phone_support_3 .supporter{
+    padding: 10px 0;
+}
+.socical,.supporter .phone_support_3{
+    display: inline-block;
+}
+.socical a{
+    display: inline-block;
+    line-height: 0;
+}
+.gd_support_3 .mail-support{
+    border-top: 1px solid #dedede;
+    margin: 5px 0px;
+}
+.gd_support_3 .phone-support a i{
+    display: none;
+}
+/********************/
+.phone{
+    margin: 0 10px;
+    background: #d51a1a url(images/phone.png) left 10px center no-repeat;
+    text-align: center;
+    text-indent: 40px;
+    padding: 10px 0;
+    position: relative;
+    border-radius: 50px;
+    font-size: 23px;
+}
+.phone a{
+    color: #fff;
+    font-size: 23px;  
+}
+.mail{
+    background: #d51a1a;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -15px;
+    padding: 10px 0 5px 0;
+    text-align: center;
+
+}
+/*****.gd_support_5*******/
+.gd_support_5 .phone_support_3{
+    position: relative;
+    margin-right: 5px;
+}
+.gd_support_5 .supporter{
+    padding: 5px;
+
+}
+/*****************/
+.gd_support_6 .supporter .info .support-rt{
+    background: url(images/phone-icon.png)left 5px center no-repeat;
+    padding-left: 45px;
+
+}
+.gd_support_6 .supporter .mail-support{
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+}
+.gd_support_6  .supporter .phone_support_3{
+    color:  #048f18;
+ }
+ .gd_support_6  .supporter .phone_support_3 i{
+    display: none;
+ }

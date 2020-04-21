@@ -1,0 +1,4 @@
+2017-10-30T17:10:34+00:00 CRITICAL Out of memory (allocated 29360128) (tried to allocate 32768 bytes)
+
+2017-11-22T11:44:42+00:00 CRITICAL Cannot redeclare class WPSEO_OpenGraph
+
