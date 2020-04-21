@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2698a2d8-2864-4a81-9587-a7554baf5a9e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/wp-content/themes/RTNormal/lib/css/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/addthis/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/addthis/AddThisCmsConnectorInterface.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/addthis/AddThisConfigs.php" beforeDir="false" />
@@ -3091,6 +3094,7 @@
       <change beforePath="$PROJECT_DIR$/wp-content/themes/genesis/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/genesis/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/genesis/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3103,7 +3107,7 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wp-content" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1apUFZ6iEBhpfsoIWoWQcOA8LjA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -3133,6 +3137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587431925262</updated>
       <workItem from="1587431926350" duration="1678000" />
+      <workItem from="1587437944224" duration="21000" />
     </task>
     <servers />
   </component>
