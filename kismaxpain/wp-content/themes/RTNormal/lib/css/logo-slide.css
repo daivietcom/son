@@ -1,0 +1,35 @@
+.preview-slider {
+    position: relative;
+}
+.preview-slider .prev, .preview-slider .next {
+    background-position: 0 0;
+    display: block;
+    position: absolute;
+    top: 48px;
+    z-index: 9998;
+    font-size: 20px;
+}
+.preview-slider .prev {
+    left: 0;
+}
+.preview-slider .next {
+    right: 25px;
+}
+.preview-slider i {
+	color: #fff;
+}
+.slide-ads {
+    margin: auto;
+}
+.slide-ads ul {
+    clear: both;
+    overflow: hidden;
+}
+.slide-ads ul li {
+    width: 170px;
+    height: 120px;
+    float: left;
+    position: relative;
+    margin: 0 38px 0 0;
+    text-align: center;
+}
