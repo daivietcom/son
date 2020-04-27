@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2698a2d8-2864-4a81-9587-a7554baf5a9e" name="Default Changelist" comment="" />
+    <list default="true" id="2698a2d8-2864-4a81-9587-a7554baf5a9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Project_daiviet/SocialNetworkDVChat" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -44,7 +46,8 @@
       <updated>1587431925262</updated>
       <workItem from="1587431926350" duration="1678000" />
       <workItem from="1587437944224" duration="169000" />
-      <workItem from="1587451825622" duration="563000" />
+      <workItem from="1587451825622" duration="1167000" />
+      <workItem from="1587949088482" duration="105000" />
     </task>
     <servers />
   </component>
@@ -56,10 +59,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587452393896" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1587432518124">
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1587949193405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587432518124" />
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587949193405" />
     <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1587451838076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
