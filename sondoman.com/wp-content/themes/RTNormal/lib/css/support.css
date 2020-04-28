@@ -1,0 +1,358 @@
+
+/**** support online ****/
+.supporter p {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+/* giao dien 1 */
+.gd_support_1 .supporter{
+    overflow: hidden;
+    margin: 0 10px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #e0e0e0;
+    padding: 15px 0px 5px 0;
+}
+.gd_support_1 .supporter:first-child{
+    border-top: 0;
+}
+.gd_support_1 .supporter:last-child{
+    border-bottom: 0;
+}
+.gd_support_1 .supporter .img-sp{
+     float: left;
+    height: auto;
+    margin: 8px 0 0 5px;
+}
+.gd_support_1 .supporter .info ,.gd_support_1 .supporter .mail,.gd_support_1 .supporter .online{
+    float: right;
+    width: 165px;
+}
+.gd_support_1 .supporter .info .name{
+    display: block;
+    color: #892989;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 0 8px 0;
+}
+.gd_support_1 .supporter .info .phone a{
+    color: #22222f;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}
+.gd_support_1 .supporter .mail{
+    font-style: italic;
+    padding: 3px 0;
+}
+.gd_support_1 .online{
+    margin:5px 0;
+    overflow: hidden;
+}
+.gd_support_1 .online .sky{
+    float: left;
+}
+.gd_support_1 .online .yahoo{
+    float: right;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+/* giao dien 2 */
+.gd_support_2 {
+    padding-top: 150px;
+    background: url(images/bg-support02.png)top center no-repeat #d00e0e;
+    background-size: contain;
+}
+.gd_support_2 .supporter{
+    margin: 0 12px;
+}
+.gd_support_2 .supporter .info{
+    display: block;
+    border-bottom: 1px solid #f41e1e;
+    padding: 6px 0;
+}
+.gd_support_2 .supporter .phone{
+    position: relative;
+    display: block;
+    padding: 5px 0;
+    border-bottom:1px solid #f41e1e;
+}
+.gd_support_2 .supporter .phone i{
+    font-size: 27px;
+}
+.gd_support_2 .supporter .phone a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+    background: url(images/li-suport.png) left no-repeat;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+.gd_support_2 .supporter .mail span{
+    background: url(images/li-suport.png) left no-repeat;
+    padding-left: 10px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+.gd_support_2 .supporter i{
+    width: 20px;
+    font-size: 100%;
+    text-align: center;
+    color: #fff;
+}
+.gd_support_2 .supporter .mail{
+    color: #fff;
+    font-size: 13px;
+    display: block;
+    border-bottom: 1px solid #f41e1e;
+    padding: 7px 0;
+}
+/*giao diện 3*/
+.gd_support_3 {
+    padding-top: 130px;
+    background: url(images/bg-support03.png)top center no-repeat;
+    background-size: contain;
+}
+.gd_support_3 .supporter{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.gd_support_3 .supporter .name{
+    display: block;
+    color: #333;
+    font-size: 13px;
+    font-weight: 700;
+}
+.gd_support_3 .supporter .phone a{
+    display: block;
+    color: #ec0101;
+    padding: 5px 0;
+    font-weight: 700;
+}
+/*giao diện 4*/
+.gd_support_4 {
+    background: url(images/bg-support-4.png) center 1px no-repeat;
+    background-size: contain;
+    border: 1px solid rgba(204,204,204,0.3);
+    padding-top: 92px;
+}
+.gd_support_4 .supporter{
+    padding: 10px 0px;
+    margin: 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+.gd_support_4 .supporter:last-child{
+    border-bottom: 0;
+}
+.gd_support_4 .supporter .info > .name{
+    display: block;
+    color: #444;
+    font-size: 14px;
+    background: url(images/bg-before.png)center repeat-x;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.gd_support_4 .supporter .name > span{
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 20px;
+}
+.gd_support_4 .supporter .info > .name span:before{
+    content: "\f111";
+    font-size: 60%;
+    color: #b51313;
+    font-family: "fontawesome";
+    margin-right: 6px;
+}
+.gd_support_4 .supporter .info  .box-name-tel .name{
+    display: inline-block;
+    color: #27870a;
+    font-size: 13px;
+    font-weight: 600;
+    background: url(images/use.png)no-repeat;
+    padding-left: 20px;
+}
+.gd_support_4 .supporter .info  .box-name-tel .phone{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.gd_support_4 .supporter .info  .box-name-tel .phone a{
+    color: #b30b0b;
+    font-size: 14px;
+    font-weight: 600;
+}
+.gd_support_4 .supporter .info .mail{
+    font-size: 13px;
+    font-weight: 600;
+    background: url(images/mail.png)0px 4px no-repeat;
+    padding-left: 20px;
+}
+/*giao diện 5*/
+.gd_support_5 {
+    padding-top: 180px;
+    background: url(images/bg-support05.png)top center no-repeat #b51119;
+    background-size: contain;
+    padding-bottom: 10px;
+}
+.gd_support_5 .supporter{
+    text-align: center;
+}
+.gd_support_5 .supporter .phone a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding: 5px 0;
+}
+.gd_support_5 .supporter .mail{
+    color: #fff;
+}
+/*giao diện 6*/
+.gd_support_6{
+    background:url(images/bg-support06.png)top center no-repeat;
+    background-size: contain;
+    padding-top: 100px;
+}
+.gd_support_6 .supporter {
+    padding: 4px 10px;
+    border-bottom: 1px dashed #e1e1e1;
+}
+.gd_support_6 .supporter{
+    display: block;
+}
+.gd_support_6 .supporter .name-suport{
+    overflow: hidden;
+    margin-top: 2px;
+    border-top: 1px dashed #ccc;
+    padding: 3px 0;
+}
+.gd_support_6 .supporter .name-suport:first-child{
+    border-top: 0;
+}
+.gd_support_6 .supporter .name{
+    display: block;
+    float: right;
+    width: 63%;
+    }
+.gd_support_6 .supporter .skype{
+    display: block;
+    float: left;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.gd_support_6 .name {
+    display: block;
+    color: #333333;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    padding: 3px 0;
+}
+.gd_support_6 .phone-suport a{
+    color: #f20000;
+    font-weight: 700;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px dashed #ccc;
+    padding: 3px 0;
+    text-transform: uppercase;
+}
+.gd_support_6 .supporter:last-child {
+    border-bottom: 0;
+}
+/*giao diện 7*/
+.gd_support_7{
+    background:url(images/bg-support07.png)top center no-repeat #fbb307;
+    background-size:contain;
+    padding-top: 125px;
+    overflow: hidden;
+    position: relative;
+}
+.gd_support_7 .supporter{
+    overflow: hidden;
+    position: relative;
+    margin: 0 13px;
+    border-bottom: 1px solid #ffd163;
+    border-top: 1px solid #d59808;
+    padding: 8px 0;
+}
+.gd_support_7 .supporter:first-child{
+    border-top: 0;
+}
+.gd_support_7 .supporter:last-child{
+    border-bottom: 0;
+}
+.gd_support_7 .supporter .name{
+    display: block;
+    color: #931202;
+    font-size: 15px
+}
+.gd_support_7 .supporter .phone i{display: none;}
+.gd_support_7 .supporter .phone a{
+    color: #4c1200;
+    font-size: 20px;
+    font-weight: 700;
+}
+.gd_support_7 .supporter .info{
+    background: url(images/phone.png) no-repeat, url(images/li-sp.png)45px 0 no-repeat;
+    padding-left: 60px;
+}
+.img-hot{
+    position: absolute;
+    top: 6px;
+    right: 0px;
+}
+/*gd_support_8*/
+.gd_support_8{
+    background: url(images/bg-support08.png)top center no-repeat;
+    padding-top: 115px;
+    border: 1px solid #ccc;
+    padding-bottom: 7px;
+}
+.gd_support_8 .supporter{
+    overflow: hidden;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+.gd_support_8 .supporter:last-child{
+    border-bottom: 0;
+}
+.gd_support_8 .supporter .info{
+    float: left;
+    width: 49%;
+}
+.gd_support_8 .supporter .info .name{
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px 0;
+}
+.gd_support_8 .supporter .info .name2{
+    color: #cc0000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px 0;
+}
+.gd_support_8 .supporter .info .phone a{
+    color: #ff0000;
+    font-size: 15px;
+    font-weight: 600;
+}
+.gd_support_8 .supporter .online{
+    float: right;
+    width: 49%;
+    margin-top: 10px;
+
+}
+.gd_support_8 .supporter .mail{
+    clear: both;
+    font-weight: 600;
+}
