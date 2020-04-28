@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d37d5bea-96f7-4c1a-90fe-cc9972fa680c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1aTG6NQ2NrbdOnsc3fu8LAtByfq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ImportantData\WebPaint\kisdopaint\wp-content\themes\RTNormal\images" />
+      <recent name="F:\ImportantData\kisdopaint\wp-content\themes\RTNormal\lib\css" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d37d5bea-96f7-4c1a-90fe-cc9972fa680c" name="Default Changelist" comment="" />
+      <created>1586502643817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586502643817</updated>
+      <workItem from="1586502645077" duration="2881000" />
+      <workItem from="1586508051073" duration="658000" />
+      <workItem from="1586565923246" duration="380000" />
+      <workItem from="1586590604918" duration="2112000" />
+      <workItem from="1586593228952" duration="5093000" />
+      <workItem from="1586751996035" duration="4999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="165" key="SettingsEditor" timestamp="1586759988701">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586759988701" />
+    <state x="85" y="154" width="1676" height="732" key="find.popup" timestamp="1586763628718">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="85" y="154" width="1676" height="732" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586763628718" />
+  </component>
+</project>
