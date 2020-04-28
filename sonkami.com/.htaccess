@@ -1,0 +1,69 @@
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+	# Ban Hosts - Security > Settings > Banned Users
+	SetEnvIF REMOTE_ADDR "^37\.187\.42\.144$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^37\.187\.42\.144$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^37\.187\.42\.144$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^31\.186\.8\.168$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^31\.186\.8\.168$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^31\.186\.8\.168$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^5\.188\.210\.47$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^5\.188\.210\.47$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^5\.188\.210\.47$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^162\.214\.29\.37$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^162\.214\.29\.37$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^162\.214\.29\.37$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^188\.163\.104\.74$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^188\.163\.104\.74$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^188\.163\.104\.74$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^54\.36\.38\.246$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^54\.36\.38\.246$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^54\.36\.38\.246$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^54\.38\.25\.183$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^54\.38\.25\.183$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^54\.38\.25\.183$" DenyAccess
+
+	<IfModule mod_authz_core.c>
+		<RequireAll>
+			Require all granted
+			Require not env DenyAccess
+			Require not ip 37.187.42.144
+			Require not ip 31.186.8.168
+			Require not ip 5.188.210.47
+			Require not ip 162.214.29.37
+			Require not ip 188.163.104.74
+			Require not ip 54.36.38.246
+			Require not ip 54.38.25.183
+		</RequireAll>
+	</IfModule>
+	<IfModule !mod_authz_core.c>
+		Order allow,deny
+		Allow from all
+		Deny from env=DenyAccess
+		Deny from 37.187.42.144
+		Deny from 31.186.8.168
+		Deny from 5.188.210.47
+		Deny from 162.214.29.37
+		Deny from 188.163.104.74
+		Deny from 54.36.38.246
+		Deny from 54.38.25.183
+	</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
