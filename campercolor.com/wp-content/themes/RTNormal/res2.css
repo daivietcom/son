@@ -1,0 +1,24 @@
+/*****************************************************/
+/* Responsive for web
+/*****************************************************/
+@media screen and  (max-width: 900px) {
+		/*tất  ngang*/
+	.site-container{ width: 99%;}
+	.wrap {width: 100%;}
+	.sidebar-content .sidebar-primary, .sidebar-sidebar-content .sidebar-primary{width: 100%;}
+	.nav-primary, .metaslider,.search-form {display: none !important;}
+	.product-list {text-align: center;}
+	.product-list .product-item {margin: 0 0 15px !important;float: inherit;display: inline-block;}
+	.sidebar {width: 100%;}
+	.sidebar .img-qc a {display: block;line-height: 0;text-align: center;margin-bottom: 10px;}
+	.footer-widgets .widget {width: 90% !important; margin: 0 0 10px !important;padding: 0 0 0 3% !important;float: left !important;}
+	.anhspsp , .thongso {width: 100%;}
+	#related-post ul {padding: 0 0 0 10px;}
+	.sidebar-content .content, .sidebar-sidebar-content .content{width: 100%;}
+	.heading a.view{display: none;}
+	.support-online-widget #supporter-info {padding-top: 0px; background: none; }
+}
+@media screen and  (max-width: 800px) {
+/*ifone 4+5 dọc*/
+
+}
